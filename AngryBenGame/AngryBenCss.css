@@ -1,0 +1,88 @@
+﻿body, html {
+    height: 100%;
+    background: url(img/background.jpg);
+    direction: rtl;
+}
+
+span {
+    font-size: xx-large;
+    color: yellow;
+    text-align: center;
+    display: block;
+}
+
+select {
+    font-size: large;
+    display: block;
+    margin: 0 auto;
+}
+
+
+table, td {
+    margin: auto;
+    text-align: center;
+}
+
+.myButton {
+    background-color: lightgreen;
+    border: groove;
+    border-color: cornflowerblue;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: wavy;
+    display: block;
+    font-size: 24px;
+    margin: auto;
+}
+
+.hole {
+    height: 80px;
+    width: 180px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.logo {
+    height: 25%;
+    width: 90%;
+    display: block;
+    margin: auto;
+    content: url('img/Header.png');
+}
+
+.background {
+    height: 70%;
+    width: 90%;
+    display: block;
+    margin: auto;
+    position: relative;
+}
+
+.benShowStyle {
+    width: 80px;
+    height: 80px;
+    content: url('img/before.png');
+}
+
+.benHitStyle {
+    width: 80px;
+    height: 80px;
+    content: url('img/after.png');
+}
+
+.benHide {
+    visibility: hidden;
+}
+
+.scoreHidden {
+    display: inline;
+    color: aqua;
+    visibility: hidden;
+}
+
+.scoreVisible {
+    display: inline;
+    color: aqua;
+    visibility: visible;
+}

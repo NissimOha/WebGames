@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="AngryBenCss.css" rel="stylesheet" />
+</head>
+<body id="body">
+    <img class="logo" />
+    <span id="spanLevel">בחר רמת משחק:</span>
+    <select id="select" onchange="levleChange()">
+        <option>קל</option>
+        <option>בינוני</option>
+        <option>קשה</option>
+    </select>
+    <input type="button" id="btn" class="myButton" value="התחל משחק" onclick="buildGame()" />
+    <br />
+    <span id="tablePlace"></span>
+    <br />
+    <span class="scoreHidden">מספר פגיעות:</span>
+    <span class="scoreHidden" id="numOfHits">0</span>
+    <br />
+    <span class="scoreHidden">מספר כשלונות:</span>
+    <span class="scoreHidden" id="numOfFails">0</span>
+    <script src="AngryBenJs.js"></script>
+</body>
+</html>

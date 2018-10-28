@@ -1,0 +1,67 @@
+﻿body, html {
+    height: 100%;
+    background: url(Image/panel.jpg);
+    direction: rtl;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    background-color: transparent;
+    width: 300px;
+    height: 150px;
+}
+
+.myContainer {
+    height: 1000px;
+    width: 1800px;
+    border-color: black;
+    border: solid 30px;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+}
+
+.tablePlaceStyle {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.shipSizeStyle {
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    bottom: 0;
+    left: 800px;
+}
+
+.rocketStyle {
+    content: url('Image/rocket.png');
+    width: 120px;
+    height: 120px;
+    position: absolute;
+}
+
+.myShipStyle {
+    height: 120px;
+    width: 120px;
+    content: url('Image/MyShip.png');
+}
+
+.enemyStyle {
+    position: absolute;
+}
+
+.enemyShipStyle {
+    content: url('Image/EnemyShip.png');
+}
+
+.enemyCommanderShipStyle {
+    content: url('Image/EnemyCommanderShip.png');
+}
+
+.enemyMotherFuckerShipStyle {
+    content: url('Image/EnemyMotherFuckerShip.png');
+}
